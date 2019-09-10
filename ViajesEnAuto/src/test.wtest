@@ -1,0 +1,14 @@
+import remiseros.*
+import clientes.*
+
+test "mariela mas de 50" {
+
+	assert.equals(180, mariela.cobrarViaje(10, ludmila))
+
+}
+
+test "mariela menos de 50" {
+
+	assert.equals(50, mariela.cobrarViaje(2, ludmila))
+
+}
